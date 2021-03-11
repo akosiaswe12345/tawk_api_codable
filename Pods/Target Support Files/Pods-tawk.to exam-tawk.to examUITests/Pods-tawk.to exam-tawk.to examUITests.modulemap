@@ -1,0 +1,6 @@
+framework module Pods_tawk_to_exam_tawk_to_examUITests {
+  umbrella header "Pods-tawk.to exam-tawk.to examUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

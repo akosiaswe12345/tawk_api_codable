@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:tawk.to exam.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

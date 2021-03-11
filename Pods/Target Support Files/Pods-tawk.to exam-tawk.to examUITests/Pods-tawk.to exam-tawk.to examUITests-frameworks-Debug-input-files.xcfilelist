@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-tawk.to exam-tawk.to examUITests/Pods-tawk.to exam-tawk.to examUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
