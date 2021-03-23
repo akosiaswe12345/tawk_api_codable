@@ -18,8 +18,8 @@
 		BB678F7525F6477B0002F743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB678F7325F6477B0002F743 /* LaunchScreen.storyboard */; };
 		BB678F8025F6477E0002F743 /* tawk_to_examTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB678F7F25F6477E0002F743 /* tawk_to_examTests.swift */; };
 		BB678F8B25F6477E0002F743 /* tawk_to_examUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB678F8A25F6477E0002F743 /* tawk_to_examUITests.swift */; };
-		BBE8269125F86D200091BB4B /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE8269025F86D1F0091BB4B /* UserEntity+CoreDataClass.swift */; };
-		BBE8269225F86D200091BB4B /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE8268F25F86D1F0091BB4B /* UserEntity+CoreDataProperties.swift */; };
+		BBBAB0AA2609B27500FC9445 /* UserEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAB0A82609B27400FC9445 /* UserEntity+CoreDataProperties.swift */; };
+		BBBAB0AB2609B27500FC9445 /* UserEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBAB0A92609B27500FC9445 /* UserEntity+CoreDataClass.swift */; };
 		BBE8269B25F8B4A50091BB4B /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE8269A25F8B4A50091BB4B /* InternetConnectionManager.swift */; };
 		BBE826A325F8D15E0091BB4B /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE826A225F8D15E0091BB4B /* UserProfileViewController.swift */; };
 /* End PBXBuildFile section */
@@ -62,8 +62,8 @@
 		BB678F8625F6477E0002F743 /* tawk.to examUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tawk.to examUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB678F8A25F6477E0002F743 /* tawk_to_examUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tawk_to_examUITests.swift; sourceTree = "<group>"; };
 		BB678F8C25F6477E0002F743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBE8268F25F86D1F0091BB4B /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserEntity+CoreDataProperties.swift"; path = "/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
-		BBE8269025F86D1F0091BB4B /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UserEntity+CoreDataClass.swift"; path = "/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		BBBAB0A82609B27400FC9445 /* UserEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BBBAB0A92609B27500FC9445 /* UserEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BBE8269A25F8B4A50091BB4B /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
 		BBE826A225F8D15E0091BB4B /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		DA07DDCC6C6AA4AEAA560D82 /* Pods-tawk.to exam-tawk.to examUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tawk.to exam-tawk.to examUITests.release.xcconfig"; path = "Target Support Files/Pods-tawk.to exam-tawk.to examUITests/Pods-tawk.to exam-tawk.to examUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,8 +182,8 @@
 		BBE8269625F86D250091BB4B /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				BBE8269025F86D1F0091BB4B /* UserEntity+CoreDataClass.swift */,
-				BBE8268F25F86D1F0091BB4B /* UserEntity+CoreDataProperties.swift */,
+				BBBAB0A92609B27500FC9445 /* UserEntity+CoreDataClass.swift */,
+				BBBAB0A82609B27400FC9445 /* UserEntity+CoreDataProperties.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -427,11 +427,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB678F7025F6474C0002F743 /* tawk_to_exam.xcdatamodeld in Sources */,
-				BBE8269125F86D200091BB4B /* UserEntity+CoreDataClass.swift in Sources */,
 				BBE826A325F8D15E0091BB4B /* UserProfileViewController.swift in Sources */,
 				BBE8269B25F8B4A50091BB4B /* InternetConnectionManager.swift in Sources */,
+				BBBAB0AB2609B27500FC9445 /* UserEntity+CoreDataClass.swift in Sources */,
 				BB678F6A25F6474C0002F743 /* ViewController.swift in Sources */,
-				BBE8269225F86D200091BB4B /* UserEntity+CoreDataProperties.swift in Sources */,
+				BBBAB0AA2609B27500FC9445 /* UserEntity+CoreDataProperties.swift in Sources */,
 				BB678F6625F6474C0002F743 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

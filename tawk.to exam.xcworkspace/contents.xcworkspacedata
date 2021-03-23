@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataClass.swift">
-   </FileRef>
-   <FileRef
-      location = "group:/Users/taisondigital/Desktop/tawk.to exam/tawk.to exam/UserEntity+CoreDataProperties.swift">
-   </FileRef>
-   <FileRef
       location = "group:tawk.to exam.xcodeproj">
    </FileRef>
    <FileRef
